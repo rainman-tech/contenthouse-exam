@@ -34,7 +34,7 @@ class Server {
             "error_message": "Server is busy. Please try again later."
           };
 
-    return Future<Map<String, dynamic>>.delayed(
+    return Future<Map<String, dynamic>?>.delayed(
       const Duration(milliseconds: 800),
     ).then((_) => response);
   }

@@ -44,4 +44,6 @@ class Server {
       (_) => _count += value,
     );
   }
+
+  int get count => _count;
 }
